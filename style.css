@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-100: #FF6500;
+  --secondary-100: #1E3E62;
+  --navy-100: #0B192C;
+  --black-100: hsl(0, 0%, 0%);
+  --gray-100: rgb(238, 238, 238);
+
+}
+
+.heading-xxl {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.heading-xl {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.heading-lg {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.heading {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  border: 0px solid;
+  padding: 10px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.light {
+  background-color: var(--primary-100);
+  color: var(--gray-100);
+}
+
+.dark {
+  background-color: var(--secondary-100);
+  color: var(--gray-100);
+}
+
+
+
+.menu {
+  display: flex;
+  gap: 10px;
+}
+
+.menu {
+  list-style-type: none;
+
+
+}
+
+.cta {
+  background-color: var(--gray-100);
+  text-align: center;
+  padding: 20px;
+}
+
+.cta__title {
+  color: var(--primary-100);
+  text-transform: uppercase;
+}
+
+.cta__button {
+  background-color: var(--primary-100);
+  color: var(--gray-100);
+}
+
+.cta__button--dark {
+  background-color: var(--secondary-100);
+  color: var(--gray-100);
+}
+
+.cta__p {
+  color: var(--navy-100);
+}
